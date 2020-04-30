@@ -1,0 +1,117 @@
+body{
+	margin: 0;
+	background-color: #f8f8f8;
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+
+
+/* top栏 */
+.top {
+	height: 12.53vw;
+	display: flex;
+	background-color: #ffffff;
+	align-items: center;
+	padding: 4.93vw 0 3.2vw 4.53vw;
+	border-bottom: 0.2vw solid #e7e7e7;
+}
+
+.top .close img {
+	width: 4.67vw;
+}
+
+.top .title {
+	width: 70.7vw;
+	font-size: 4.53vw;
+	color: black;
+	padding-left: 3.4vw;
+	border-left: 0.5vw solid black;
+	margin: 0 3.53vw 0 5.87vw;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.top .list img {
+	height: 4.27vw;
+}
+
+
+/* 地址列表 */
+.address{
+	background-color: white;
+	margin-bottom: 4.27vw;
+}
+.address .des{
+	font-size: 3.47vw;
+	padding: 3.87vw 3vw 3.73vw 4.67vw;
+	border-bottom: 0.2vw solid #f8f8f8;
+}
+.address .des .address_des{
+	width: 81.87vw;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.address .sell {
+	display: flex;
+	align-items: center;
+	padding: 3.2vw 2.93vw 3.33vw 3.73vw;
+}
+.address .sell .img img{
+	width: 19.47vw;
+	height: 19.47vw;
+}
+.address .sell .des{
+	height: 19.47vw;
+}
+.address .sell .des .price{
+	color: #ff2732;
+	font-size: 3.47vw;
+	margin-top: 3vw;
+}
+.address .road_price{
+	font-size: 3.47vw;
+	padding: 1.2vw 2.93vw 1.33vw 3.73vw;
+	color: #000000;
+}
+.address .way{
+	display: flex;
+	font-size: 3.47vw;
+	padding: 1.2vw 2.93vw 1.33vw 3.73vw;
+	color: #000000;
+}
+.address .way input{
+	width: 2vw;
+	height: 2vw;
+	margin-right: 2vw;
+}
+
+.send{
+	width: 100vw;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	height: 10.8vw;
+	display: flex;
+	align-items: center;
+	background-color: white;
+}
+.send .all{
+	flex: 6;
+	padding: 4.13vw 0 3.07vw 3.33vw ;
+	font-size: 3.47vw;
+}
+.send .all span{
+	color: #ff2732;
+}
+.send .btn{
+	flex: 4;
+	text-align: center;
+	padding: 2.93vw 12.53vw;
+	background-color: #ff2732;
+	font-size: 3.47vw;
+	color: white;
+}

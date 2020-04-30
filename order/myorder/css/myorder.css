@@ -1,0 +1,180 @@
+body {
+	margin: 0;
+	background-color: #f8f8f8;
+}
+
+
+
+/* top栏 */
+.top {
+	height: 12.53vw;
+	display: flex;
+	background-color: #ffffff;
+	align-items: center;
+	padding: 4.93vw 0 3.2vw 4.53vw;
+	border-bottom: 0.2vw solid #e7e7e7;
+}
+
+.top .close img {
+	width: 4.67vw;
+}
+
+.top .title {
+	width: 70.7vw;
+	font-size: 4.53vw;
+	color: black;
+	padding-left: 3.4vw;
+	border-left: 0.5vw solid black;
+	margin: 0 3.53vw 0 5.87vw;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.top .list img {
+	height: 4.27vw;
+}
+
+/* 导航栏 */
+.nav {
+	display: flex;
+	align-items: center;
+	background-color: white;
+	padding: 1vw 2vw;
+}
+
+.nav .item {
+	flex: 1;
+	font-size: 3.47vw;
+	color: #adadad;
+	text-align: center;
+	padding: 2vw 0;
+}
+
+.line {
+	border-bottom: 0.5vw solid #ff2732;
+	color: #ff2732;
+}
+
+
+/* 订单 */
+.order {
+	width: 93.33vw;
+	margin: 4vw auto;
+	background-color: white;
+	border-bottom: 0.5vw solid #f1f1f1;
+}
+
+.order:nth-child(2) {
+	display: none;
+}
+
+.order:nth-child(3) {
+	display: none;
+}
+.order:nth-child(4) {
+	display: none;
+}
+.order .title {
+	display: flex;
+	justify-content: space-between;
+	padding: 2.8vw 2.27vw;
+}
+
+.order .title .time {
+	font-size: 3.75vw;
+	color: #000000;
+}
+
+.order .title .hold {
+	color: #fe2631;
+	font-size: 3.75vw;
+}
+
+.order .sell {
+	display: flex;
+	align-items: center;
+	padding: 2.8vw 2.27vw;
+}
+
+
+.order .sell .img{
+	margin-right: 2vw;
+}
+.order .sell .img  img{
+	width: 22vw;
+	height: 21.6vw;
+}
+
+.order .sell .txt {
+	height: 19.47vw;
+}
+
+.order .sell .txt .des {
+	font-size: 3.47vw;
+	width: 60.8vw;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: wrap;
+}
+
+.order .sell .txt .size {
+	font-size: 3.47vw;
+	color: #AAAAAA;
+	margin: 1vw 0;
+}
+
+.order .sell .txt .price {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.order .sell .txt .price .num {
+	font-size: 3.72vw;
+	color: #ff2732;
+}
+
+.order .sell .txt .price .count {
+	font-size: 3.72vw;
+	color: #AAAAAA;
+}
+
+.order .detail {
+	padding: 3.6vw 3.47vw;
+}
+
+.order .detail .min {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 3.73vw;
+	color: #908f8f;
+	margin-bottom: 2vw;
+}
+
+
+/* 操作 */
+.confirm {
+	display: flex;
+	justify-content: flex-end;
+	padding: 3vw;
+}
+
+.confirm .esc {
+	padding: 1vw 2vw;
+	background-color: #f9f9f9;
+	border: 0.1vw solid #d3d3d3;
+	font-size: 3.73vw;
+	border-radius: 10vw;
+	margin-right: 5vw;
+}
+
+.confirm .pay {
+	padding: 1vw 1.5vw;
+	background-color: #fe2631;
+	border: 0.1vw solid #ff2732;
+	font-size: 3.73vw;
+	border-radius: 10vw;
+	color: white;
+}

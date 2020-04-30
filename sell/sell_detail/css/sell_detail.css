@@ -1,0 +1,498 @@
+a {
+	color: white;
+	text-decoration: none;
+}
+
+body {
+	margin: 0;
+	background-color: #f8f8f8;
+}
+
+.vertical {
+	vertical-align: middle;
+}
+
+/* top栏 */
+.top {
+	height: 12.53vw;
+	display: flex;
+	background-color: #ffffff;
+	align-items: center;
+	padding: 4.93vw 0 3.2vw 4.53vw;
+}
+
+.top .close img {
+	width: 4.67vw;
+}
+
+.top .title {
+	width: 70.7vw;
+	font-size: 4.53vw;
+	color: black;
+	padding-left: 3.4vw;
+	border-left: 0.5vw solid black;
+	margin: 0 3.53vw 0 5.87vw;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.top .list img {
+	height: 4.27vw;
+}
+
+
+
+/* 轮播图 */
+.swiper-container {
+	width: 100vw;
+	height: 100vw;
+	border-radius: 4px;
+	--swiper-theme-color: #FF2732;
+}
+
+.swiper-container img {
+	width: 100vw;
+	height: 100vw;
+}
+
+
+
+/* 商品标题 */
+.sell_title {
+	background-color: white;
+	padding: 2.93vw 4.13vw 4.8vw 3.33vw;
+}
+
+.sell_title .name {
+	font-size: 3.47vw;
+	width: 90.2vw;
+	height: 9.7vw;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin-bottom: 2.6vw;
+}
+
+.sell_title .text {
+	border-bottom: 0.3vw solid #dadada;
+	padding-bottom: 2.2vw;
+}
+
+.sell_title img {
+	width: 2.4vw;
+	height: 2.53vw;
+}
+
+.sell_title .cn {
+	font-size: 2.67vw;
+	color: #ff2732;
+}
+
+.sell_title .num {
+	font-size: 3.2vw;
+	color: #ff2732;
+}
+
+.sell_title .point {
+	margin-bottom: 0.8vw;
+}
+
+.sell_title .point .hand {
+	font-size: 2.67vw;
+	padding: 0.7vw 2.5vw;
+	border-radius: 8vw;
+	background-color: #ff2732;
+	color: white;
+	margin: 0 2.1vw 0 40vw;
+}
+
+.sell_title .point .price {
+	font-size: 4.27vw;
+	color: #ff2732;
+}
+
+.sell_title .have .pro {
+	font-size: 2.67vw;
+	color: #aaaaaa;
+	margin-left: 3.2vw;
+}
+
+
+.tips {
+	font-size: 3.47vw;
+	color: #838383;
+	background-color: white;
+	margin-top: 2vw;
+	padding: 5.47vw 0 6vw 3.2vw;
+}
+
+.tips .item {
+	display: flex;
+}
+
+.tips .item .left {
+	display: flex;
+	flex: 1;
+	align-items: center;
+}
+
+.tips .item .right {
+	display: flex;
+	flex: 1;
+	align-items: center;
+}
+
+.tips .item .red {
+	width: 1.33vw;
+	height: 1.33vw;
+	background-color: #ff2732;
+	margin: 1.5vw;
+	border-radius: 1vw;
+}
+
+
+/* 评价 */
+.good {
+	margin-top: 2vw;
+	padding: 4.67vw 4.27vw 3.87vw 3.33vw;
+	background-color: white;
+}
+
+.good .title {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 1.2vw;
+	border-bottom: 0.3vw solid #e8e8e8;
+}
+
+.good .title .left {
+	font-size: 3.73vw;
+}
+
+.good .title .right span {
+	color: #ff2732;
+}
+
+.good .content {
+	padding-top: 3vw;
+}
+
+.good .content .user img {
+	width: 7.6vw;
+	height: 7.6vw;
+}
+
+.good .content .user .name {
+	font-size: 3.47vw;
+	margin-left: 2vw;
+}
+
+.good .content .date {
+	font-size: 2.67vw;
+	color: #8a8a8a;
+	margin: 2vw 0;
+}
+
+.good .content .des {
+	color: #000000;
+	font-size: 3.47vw;
+	margin-bottom: 2vw;
+}
+
+.good .content .img img {
+	width: 62.53vw;
+	height: 11.2vw;
+}
+
+.detail {
+	background-color: white;
+	padding: 4.27vw 0;
+	margin-top: 3vw;
+}
+
+.detail .title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 4vw;
+}
+
+.detail .title .black {
+	width: 4vw;
+	height: 0.5vw;
+	background-color: #000000;
+}
+
+.detail .title .txt {
+	margin: 0 2vw;
+}
+
+.detail .img {
+	width: 100vw;
+	height: 210vw;
+	margin-bottom: 3vw;
+}
+
+.detail .img img {
+	width: 100vw;
+	height: 210vw;
+}
+
+
+/*更多推荐 */
+.content_more{
+	background-color: white;
+	padding: 6vw 4vw 6vw 3.73vw;
+	margin-top: 2vw;
+}
+.content_more .more_good{
+	text-align: center;
+	font-size: 3.47vw;
+}
+.content_more .list {
+	display: flex;
+	margin: 3.6vw 0;
+}
+
+.content_more .list .img {
+	width: 26.8vw;
+	height: 25.32vw;
+	margin-right: 3.47vw;
+	flex: 1;
+}
+
+.content_more .list .img img {
+	width: 26.8vw;
+	height: 25.32vw;
+	border-radius: 6px;
+}
+
+.content_more .des {
+	font-size: 3.47vw;
+	width: 57.2vw;
+	height: 9.7vw;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin-bottom: 2.6vw;
+}
+
+.content_more .text {
+	border-bottom: 0.3vw solid #dadada;
+	padding-bottom: 2.2vw;
+	flex: 2;
+}
+
+.content_more .text img {
+	width: 2.4vw;
+	height: 2.53vw;
+}
+
+.content_more .cn {
+	font-size: 2.67vw;
+	color: #ff2732;
+}
+
+.content_more .num {
+	font-size: 3.2vw;
+	color: #ff2732;
+}
+
+.content_more .point {
+	margin-bottom: 0.8vw;
+}
+
+.content_more .point .hand {
+	font-size: 2.67vw;
+	padding: 1vw 2vw;
+	border-radius: 8vw;
+	background-color: #ff2732;
+	color: white;
+	margin: 0 3.1vw;
+}
+
+.content_more .point .price {
+	font-size: 3.73vw;
+	color: #000000;
+}
+
+.content_more .have .pro {
+	font-size: 2.67vw;
+	color: #aaaaaa;
+	margin-left: 3.2vw;
+}
+
+
+
+/* fixed */
+.footer{
+	width: 100vw;
+	height: 13.47vw;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	display: flex;
+	background-color: white;
+	align-items: center;
+}
+.footer .talk{
+	flex: 1;
+	padding: 2.93vw 4.13vw;
+	border-right: 0.3vw solid #ececec;
+	box-sizing: border-box;
+	text-align: center;
+}
+.footer .cart{
+	flex: 1;
+	padding: 2.93vw 4.13vw;
+	border-right: 0.3vw solid #ececec;
+	box-sizing: border-box;
+	text-align: center;
+}
+.footer .fav{
+	flex: 1;
+	padding: 2.93vw 4.13vw;
+	border-right: 0.3vw solid #ececec;
+	box-sizing: border-box;
+	text-align: center;
+}
+.footer .addcart{
+	flex: 3;
+	text-align: center;
+	font-size: 3.47vw;
+}
+.footer .buy{
+	flex: 3;
+	text-align: center;
+	background-color: #ff2732;
+	color: white;
+	font-size: 3.47vw;
+	padding: 3.99vw 0;
+}
+.footer img{
+	width: 5.2vw;
+	height: 5.2vw;
+}
+
+
+
+/* mask */
+
+.mask{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	bottom: 0vw;
+	left: 0;
+	z-index: 1999;
+	display: none;
+}
+.mask .top{
+	width: 100vw;
+	height: 30%;
+	background-color: rgba(0,0,0,0.3);
+}
+.mask .content{
+	width: 100vw;
+	height: 70%;
+	background-color: white;
+	padding: 4.4vw 3.6vw 6.27vw 2.8vw;
+	position: relative;
+}
+.mask .content .close{
+	width: 5.6vw;
+	height: 5.6vw;
+	position: absolute;
+	right: 10vw;
+	top: 5vw;
+	z-index: 99999;
+}
+.mask .content .close img{
+	width: 5.6vw;
+	height: 5.6vw;
+}
+.mask .content .sell {
+	display: flex;
+	align-items: flex-end;
+}
+.mask .content .sell .img{
+	margin-right: 3.2vw;
+}
+.mask .content .sell .img img{
+	width: 23.07vw;
+	height: 25.6vw;
+	border-radius: 6px;
+}
+.mask .content .sell .des .price{
+	color: #ff2732;
+	font-size: 2.93vw;
+}
+.mask .content .sell .des .price span{
+	color: #ff2732;
+	font-size: 4.97vw;
+}
+.mask .content .sell .des .chose{
+	color: #000000;
+	font-size: 2.93vw;
+}
+.mask .content .size{
+	margin-top: 8vw;
+}
+.mask .content .size .title{
+	font-size: 3.47vw;
+	color: #000000;
+	margin-bottom: 2.68vw;
+}
+.mask .content .size .bed{
+	width: 44vw;
+	font-size: 3.2vw;
+	padding: 1.87vw 2.93vw 2vw 2.93vw;
+	border-radius: 4px;
+	margin-bottom: 2.93vw;
+	border: 0.2vw solid #000000;
+}
+.mask .content .size .box_color{
+	border: 0.2vw solid #ff2732;
+	color: #ff2732;
+}
+
+.mask .content .num .title{
+	font-size: 3.47vw;
+	color: #000000;
+	margin-bottom: 2.68vw;
+}
+.mask .content .num .count{
+	display: flex;
+}
+.mask .content .num .count .cut{
+	width: 10.93vw;
+	height: 5.33vw;
+	text-align: center;
+	border: 0.1vw solid #000000;
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+}
+.mask .content .num .count .sell_num{
+	width: 10.93vw;
+	height: 5.33vw;
+	text-align: center;
+	border: 0.1vw solid #000000;
+}
+.mask .content .num .count .add{
+	width: 10.93vw;
+	height: 5.33vw;
+	text-align: center;
+	border: 0.1vw solid #000000;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+.mask .confirm{
+	width: 93.07vw;
+	height: 8.4vw;
+	color: white;
+	background-color: #ff2732;
+	text-align: center;
+	margin-top: 19.33vw;
+	padding-top: 3.1vw;
+	font-size: 3.78vw;
+	border-radius: 4px;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/address_change.css" />
+		<link rel="stylesheet" type="text/css" href="lib/address/css/zcity.css" />
+	</head>
+	<body>
+		<!-- 页头 -->
+		<div class="top">
+			<div class="close">
+				<a href="../myaddress/myaddress.html">
+					<img src="img/sell_list_06.png">
+				</a>
+
+			</div>
+			<div class="title">编辑地址</div>
+			<div class="list">
+				<img src="./img/sell_list_03.png" alt="">
+			</div>
+		</div>
+
+
+		<!-- 内容 -->
+		<div class="content">
+			<div class="masg">
+				<div class="name">
+					<input type="text" placeholder="王先生" value="" />
+				</div>
+				<div class="tell">
+					<input type="text" placeholder="17667162062" value="" />
+				</div>
+			</div>
+			<div class="address">
+				<td class="td-04">
+					<!--zcityGroup start-->
+					<div class="zcityGroup" city-range="{'level_start':1,'level_end':3}"></div>
+					<!--zcityGroup end-->
+				</td>
+			</div>
+			<div class="list">
+				<input type="text" placeholder="宁夏路189号5单元" value="" />
+			</div>
+		</div>
+
+
+
+
+		<!-- 保存 -->
+		<a href="../myaddress/myaddress.html">
+			<div class="save">
+				保存
+			</div>
+		</a>
+
+
+
+		<script src="lib/address/js/jquery-1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="lib/address/js/zcity.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			zcityrun('.zcityGroup');
+		</script>
+	</body>
+</html>

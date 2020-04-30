@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+		/* 宽高固定的 */
+		/*   方法1：定位, 50% margin 负距*/
+		.box{
+			width: 200px;
+			height: 100px;
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			margin-top: -50px;
+			margin-left: -100px;
+			/* 调整中心点  一开始的中心点在左上角  调整到box的中心  即一半宽度一半高度的位置上 */
+		}
+		/* 方法2: 定位  四方位为 0  margin:auto   最简单的一种方式*/
+		.box{
+			width: 200px;
+			height: 100px;
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			margin: auto;
+			/* 定位四方位将盒子拉扯开 对四个方向都能做出调整  然后margin:auto 对页面自适应居中 */
+		}
+		
+		
+		/* 宽高不固定 垂直居中*/
+		.box{
+			position: absolute;
+			width: 300px;
+			height:200px;
+			background-color: deeppink;
+			transform: translateX(-50%) translateY(-50%);
+			left: 80%;
+			top: 50%;
+			/* 运用了css3的transform属性进行了X轴 Y轴的移动 再用定位的left top来调整  这种方法不论宽高怎么改变 都是垂直居中的 */
+		}
+		
+		/* flex 属性 */
+		.box{
+			/* 开启flex 布局   替换了左浮动 垂直居中*/
+			display: flex;
+			
+			/* 容器属性 横向对齐*/
+			justify-content: space-between;
+			
+			/* 定义垂直方向的居中 */
+			align-items: center;
+			
+			/* 运用了css3种的flex布局  在pc端 移动端 响应式页面都是非常好用  */
+		}
+		</style>
+	</head>
+	<body>
+		
+		
+	</body>
+</html>

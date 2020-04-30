@@ -1,0 +1,127 @@
+body{
+	background-color: #f8f8f8;
+}
+
+
+
+/* top栏 */
+.top {
+	height: 12.53vw;
+	display: flex;
+	background-color: #ffffff;
+	align-items: center;
+	padding: 4.93vw 0 3.2vw 4.53vw;
+	border-bottom: 0.2vw solid #e7e7e7;
+}
+
+.top .close img {
+	width: 4.67vw;
+}
+
+.top .title {
+	width: 70.7vw;
+	font-size: 4.53vw;
+	color: black;
+	padding-left: 3.4vw;
+	border-left: 0.5vw solid black;
+	margin: 0 3.53vw 0 5.87vw;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.top .list img {
+	height: 4.27vw;
+}
+
+/* 内容 */
+.content{
+	background-color: white;
+}
+.content .masg {
+	display: flex;
+	align-items: center;
+	border-bottom: 0.2vw solid #e6e6e6;
+}
+
+.content .masg .name{
+	border-right: 0.2vw solid #e6e6e6;
+}
+.content .masg .name input{
+	font-size: 3.47vw;
+	flex: 1;
+	padding: 4.27vw 0 3.6vw 2.67vw;
+	border: 0;
+}
+
+.content .masg .tell input{
+	width: 100%;
+	font-size: 3.47vw;
+	flex: 1;
+	padding: 4.27vw 0 3.6vw 2.67vw;
+	border: 0;
+}
+
+.content .address{
+	display: flex;
+	border-bottom: 0.2vw solid #e6e6e6;
+}
+.content .address img{
+	width: 3.33vw;
+	height: 1.73vw;
+}
+
+.content .address{
+	padding: 5.43vw 0;
+	border-bottom: 0.2vw solid #ececec;
+}
+.address .zcityGroup{
+	width: 100%;
+	border: 0;
+	margin: 0;
+	font-size: 3.47vw;
+}
+.address .zcityGroup .zcityItem .zcityItem-head .currentValue{
+	height: 10.8vw;
+	font-size: 3.47vw;
+}
+.zcityGroup .zcityItem .zcityItem-main{
+	height: 30vw;
+}
+.content .zcityGroup .zcityItem .zcityItem-main .cityContainer{
+	height: 30vw;
+}
+.content .zcityGroup .zcityItem .zcityItem-main .cityContainer .cityitem{
+	height: 6vw;
+	text-align: left;
+	padding-top: 2vw;
+	margin: 2vw 0;
+}
+
+.content .list input{
+	width: 95vw;
+	font-size: 3.47vw;
+	padding: 4.27vw 0 3.6vw 2.67vw;
+	border: 0;
+}
+
+
+
+
+
+
+
+
+/* 保存 */
+.save {
+	width: 100vw;
+	height: 14vw;
+	left: 0;
+	bottom: 0;
+	position: fixed;
+	background-color: #ff2732;
+	color: white;
+	font-size: 3.47vw;
+	text-align: center;
+	line-height: 14vw;
+}

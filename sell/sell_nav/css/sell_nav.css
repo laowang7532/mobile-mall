@@ -1,0 +1,175 @@
+a{
+	color: #000000;
+	text-decoration: none;
+}
+body{
+	margin: 0;
+}
+/* top栏 */
+.top {
+	height: 12.53vw;
+	display: flex;
+	background-color: #ffffff;
+	align-items: center;
+	padding: 4.93vw 0 3.2vw 4.53vw;
+}
+
+.top .close img {
+	width: 4.67vw;
+}
+
+.top .title {
+	width: 70.7vw;
+	font-size: 4.53vw;
+	color: black;
+	padding-left: 3.4vw;
+	border-left: 2px solid black;
+	margin: 0 4.93vw 0 5.87vw;
+}
+
+.top .list img {
+	height: 4.27vw;
+}
+
+
+/* 搜索框 */
+.search{
+	position: relative;
+	height: 18vw;
+	padding: 0 2.27vw 2.8vw 2.2vw;
+}
+.search .input{
+	width: 88.53vw;
+	height: 8.8vw;
+	border-radius: 6px;
+	background-color: #f4f8f7;
+	border: 1vw solid #f4f8f7;
+	padding-left: 4vw;
+}
+/* placeholder 文字的属性 */
+input::-webkit-input-placeholder {
+	text-align: center;
+	font-size: 2.98vw;
+}
+.search .img{
+	width: 3.6vw;
+	position: absolute;
+	left: 38.73vw;
+	top: 3.53vw;
+}
+.search .img img{
+	width: 3.6vw;
+}
+/* nav */
+
+
+
+.nav{
+	display: flex;
+}
+.nav .left_nav{
+	width: 20.13vw;
+	border-top: 0.2vw solid #dcdcdc;
+}
+.nav .left_nav .item{
+	width: 100%;
+	font-size: 3.07vw;
+	padding-left: 2.67vw;
+	margin: 3.8vw 0;
+}
+/* -------------公共样式--------------------- */
+.line{
+	border-left: 0.5vw solid #ff2732;
+	color: #ff2732;
+}
+/* ------------------------------------------ */
+
+
+.right_content{
+	width: 79vw;
+	padding: 3.73vw 4.4vw  15vw 4.27vw;
+}
+.right_content .content:first-child{
+	display: block;
+}
+.right_content .content:nth-child(2){
+	display: none;
+}
+.right_content .content:nth-child(3){
+	display: none;
+}
+.right_content .content:nth-child(4){
+	display: none;
+}
+.right_content .content .img{
+	width: 71.2vw;
+	height: 26.67vw;
+	border-radius: 4px;
+	margin-bottom: 4.27vw;
+}
+.right_content .content .img img{
+	width: 71.2vw;
+	height: 26.67vw; 
+}
+.right_content .list{
+	width: 71.2vw;
+	margin-bottom: 5vw;
+}
+.right_content .title{
+	width: 100%;
+	font-size: 3.47vw;
+	padding-bottom: 1.47vw;
+	border-bottom: 0.2vw solid #e1e1e1;
+}
+.right_content .box{
+	display: flex;
+	flex-wrap: wrap;
+}
+.right_content .box .item{
+	width: 33.33%;
+	text-align: center;
+	margin-top: 4.4vw;
+}
+.right_content .box .item .logo{
+	text-align: center;
+}
+.right_content .box .item .logo img{
+	width: 8.8vw;
+	height: 10vw;
+}
+.right_content .box .item .des{
+	font-size: 3.47vw;
+	color: #000000;
+}
+
+
+
+
+
+
+
+
+
+/* footer板块 */
+.footer{
+	width: 100%;
+	display: flex;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	padding: 2.4vw 6.9vw 3.47vw 0;
+	background-color: white;
+	z-index: 9999;
+}
+.footer .item{
+	width: 20%;
+	text-align: center;
+}
+.footer .item img{
+	width: 5.6vw;
+	
+}
+.footer .item .name{
+	font-size: 3.47vw;
+	color: #949494;
+}

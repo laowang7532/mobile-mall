@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/user_change.css" />
+		<link rel="stylesheet" type="text/css" href="lib/address/css/zcity.css" />
+	</head>
+	<body>
+		<!-- 页头 -->
+		<div class="top">
+			<div class="close">
+				<a href="../user_center/user_center.html">
+					<img src="img/sell_list_06.png">
+				</a>
+			</div>
+			<div class="title">资料修改</div>
+			<div class="list">
+				<img src="./img/sell_list_03.png" alt="">
+			</div>
+		</div>
+
+
+		<!-- 主页内容 -->
+		<div class="content">
+			<div class="name">
+				<div class="cn">昵称</div>
+				<div> <input type="text" placeholder="填写呢称" value="" /></div>
+			</div>
+			<div class="phone">
+				<div class="cn">电话</div>
+				<div> <input type="text" placeholder="17667162062" value="" /></div>
+			</div>
+			<div class="address">
+				<div class="cn">现居地址</div>
+				<td class="td-04">
+					<!--zcityGroup start-->
+					<div class="zcityGroup" city-range="{'level_start':1,'level_end':3}"></div>
+					<!--zcityGroup end-->
+				</td>
+			</div>
+			<div class="item">
+				<input type="text" placeholder="宁夏路189号5单元" value="" />
+			</div>
+
+		</div>
+		<div class="save">
+			保存
+		</div>
+		<script src="lib/address/js/jquery-1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="lib/address/js/zcity.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			zcityrun('.zcityGroup');
+		</script>
+	</body>
+</html>

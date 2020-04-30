@@ -1,0 +1,125 @@
+/* topæ */
+.top {
+	height: 12.53vw;
+	display: flex;
+	background-color: #ffffff;
+	align-items: center;
+	padding: 4.93vw 0 3.2vw 4.53vw;
+	border-bottom: 0.2vw solid #e7e7e7;
+}
+
+.top .close img {
+	width: 4.67vw;
+}
+
+.top .title {
+	width: 70.7vw;
+	font-size: 4.53vw;
+	color: black;
+	padding-left: 3.4vw;
+	border-left: 0.5vw solid black;
+	margin: 0 3.53vw 0 5.87vw;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.top .list img {
+	height: 4.27vw;
+}
+
+
+.content{
+	padding: 5.47vw 3.73vw 0 5.33vw;
+}
+.content .name{
+	display: flex;
+	border-bottom: 0.2vw solid #ececec;
+	padding: 5.43vw 0;
+	align-items: center;
+}
+.content .name .cn{
+	color: black;
+	font-size: 3.73vw;
+	margin-right: 2vw;
+}
+.content .name input{
+	width: 80vw;
+	height: 5vw;
+	font-size: 3.47vw;
+	border: 0;
+}
+
+.content .phone{
+	display: flex;
+	border-bottom: 0.2vw solid #ececec;
+	padding: 5.43vw 0;
+	align-items: center;
+}
+.content .phone .cn{
+	color: black;
+	font-size: 3.73vw;
+	margin-right: 2vw;
+}
+.content .phone input{
+	width: 80vw;
+	height: 5vw;
+	font-size: 3.47vw;
+	border: 0;
+}
+.content .address .cn{
+	color: black;
+	font-size: 3.73vw;
+	margin-right: 2vw;
+	margin-bottom: 3vw;
+}
+.content .address{
+	padding: 5.43vw 0;
+	border-bottom: 0.2vw solid #ececec;
+}
+.address .zcityGroup{
+	width: 100%;
+	border: 0;
+	margin: 0;
+	font-size: 3.47vw;
+}
+.address .zcityGroup .zcityItem .zcityItem-head .currentValue{
+	height: 10.8vw;
+	font-size: 3.47vw;
+}
+.zcityGroup .zcityItem .zcityItem-main{
+	height: 30vw;
+}
+.content .zcityGroup .zcityItem .zcityItem-main .cityContainer{
+	height: 30vw;
+}
+.content .zcityGroup .zcityItem .zcityItem-main .cityContainer .cityitem{
+	height: 6vw;
+	text-align: left;
+	padding-top: 2vw;
+	margin: 2vw 0;
+}
+
+
+
+
+
+.content .item input{
+	color: #aaaaaa;
+	font-size: 3.73vw;
+	padding: 5.43vw 0;
+	border-bottom: 0.2vw solid #ececec;
+	border: 0;
+}
+.save{
+	width: 100vw;
+	height: 14vw;
+	left: 0;
+	bottom: 0;
+	position: fixed;
+	background-color: #ff2732;
+	color: white;
+	font-size: 3.47vw;
+	text-align: center;
+	line-height: 14vw;
+}
